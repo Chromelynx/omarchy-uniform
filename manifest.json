@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "clynx.uniform",
+  "name": "Uniform",
+  "version": "1.0.0",
+  "author": "clynx",
+  "license": "MIT",
+  "description": "Show text copied from websites and AI answers in one font",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Uniform",
+    "description": "Paste website and AI text into a window that uses one font",
+    "category": "Productivity",
+    "aliases": [
+      "uniform",
+      "paste",
+      "reader"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
